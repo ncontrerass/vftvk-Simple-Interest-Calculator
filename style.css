@@ -19,3 +19,9 @@ h1{
     align:center;
     margin: 0 auto;
 }
+
+label{
+    width:105px;
+    text-align:left;
+    display: inline-block;
+}

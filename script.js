@@ -1,6 +1,8 @@
 //compute function - Calculates result and displays it on the html
 function compute()
 {
+    validatePrincipal();
+    
     var principal = document.getElementById("principal").value;
 
     var rate = document.getElementById("rate").value;
@@ -31,6 +33,9 @@ function validatePrincipal()
         alert("Enter a positive number");
         principal.focus();
         return false;
+    } else{
+        return true;
     }
+        
 }
         

@@ -1,7 +1,7 @@
 //compute function - Calculates result and displays it on the html
 function compute()
 {
-    val r = validatePrincipal();
+    var r = validatePrincipal();
     
     if(r === true){
         var principal = document.getElementById("principal").value;

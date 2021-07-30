@@ -1,8 +1,10 @@
 //compute function - Calculates result and displays it on the html
 function compute()
 {
+    //Principal Amount input box validation 
     var r = validatePrincipal();
     
+    //If principal amount vaidation is true, execute the following code
     if(r === true){
         var principal = document.getElementById("principal").value;
 

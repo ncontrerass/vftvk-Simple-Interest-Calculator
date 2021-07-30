@@ -25,9 +25,9 @@ function updateRate()
 //validatePrincipal function - validates if the number is less or equals to zero, and shows an alert
 function validatePrincipal() 
 {
-    var principal = document.getElementById("principal").value;
+    var principal = document.getElementById("principal");
 
-    if(principal <=0){
+    if(principal.value <=0){
         alert("Enter a positive number");
         principal.focus();
         return false;

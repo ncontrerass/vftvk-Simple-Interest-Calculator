@@ -33,9 +33,9 @@ function validatePrincipal()
     var principal = document.getElementById("principal");
 
     if(principal.value <=0){
+        document.getElementById("result").innerHTML="";
         alert("Enter a positive number");
         principal.focus();
-        document.getElementById("result").innerHTML="";
         return false;
     } else{
         return true;
